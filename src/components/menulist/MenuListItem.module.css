@@ -1,0 +1,13 @@
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #D7D7D7;
+    padding: .5rem 0;
+}
+.listItem__name {
+    font-weight: bold;
+}
+.listItem__price {
+    font-size: .875rem;
+}

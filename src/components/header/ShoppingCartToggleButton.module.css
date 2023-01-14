@@ -1,0 +1,13 @@
+.cartToggleButton {
+    background-color: #CF4646;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: .2rem .5rem;
+    font-family: Inconsolata;
+}
+@media screen and (min-width: 640px) {
+    .cartToggleButton {
+    padding: .5rem 1rem;
+    }
+}

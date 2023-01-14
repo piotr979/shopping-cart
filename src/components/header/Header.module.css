@@ -1,0 +1,44 @@
+header {
+    background: url('../../assets/images/backgrnd.png');
+    background-repeat: no-repeat;
+   object-fit: cover;
+   background-position: 50% 50%;
+    height: 10rem;
+}
+h1 {
+    color: white;
+   text-align:center;
+   padding-top: 4rem;
+   letter-spacing: 2px;
+   font-size: 1.5em;
+}
+.header-logo {
+    font-size: 1.125rem;
+    color: white;
+    font-weight: bold;
+}
+.header-items {
+    padding-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (min-width: 640px) {
+    header {
+        height: 14rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    header {
+        height: 18rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+}
