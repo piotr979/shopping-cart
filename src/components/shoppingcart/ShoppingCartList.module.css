@@ -1,0 +1,26 @@
+.shopping-cart {
+    background-color: #EAF9FB;
+    color: #666;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.shopping-cart h3 {
+    padding: 2rem 0 0 1rem;
+}
+.shopping-cart__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+@media screen and (min-width: 480px) {
+
+    .shopping-cart {
+    max-width: 50rem;
+    height: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}

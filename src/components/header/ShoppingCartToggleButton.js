@@ -1,8 +1,15 @@
 import classes from './ShoppingCartToggleButton.module.css';
-
+import { useContext } from 'react';
+import CartContext from '../../store/cart-context';
 const ShoppingCartToggleButton = (props) => {
+
+    const cartCtx = useContext(CartContext);
+
     return (
-        <button className={classes.cartToggleButton}>View cart 0</button>
+        <button 
+            onClick={props.handleModal} 
+            className={classes.cartToggleButton}>
+            View cart {cartCtx.totalAmount}</button>
     )
 }
 
