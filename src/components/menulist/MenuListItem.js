@@ -15,6 +15,7 @@ const MenuListItem = (props) => {
         cartCtx.addItem({
             id: props.id,
             amount: amountInputRef.current.value,
+            description: props.description,
             name: props.name,
             price: props.price
         })
@@ -28,7 +29,7 @@ const MenuListItem = (props) => {
         </div>
         <div className={classes['listItem__input']}>
         <form onSubmit={inputHandler}>
-        <Input 
+        <Input
             ref={amountInputRef}
             input={{
                 type: 'number',

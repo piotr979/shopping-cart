@@ -8,6 +8,17 @@
 .listItem__name {
     font-weight: bold;
 }
+.listItem__description {
+    font-size: 0.895rem;
+    color: #777777;
+    padding-bottom: 1rem;
+}
 .listItem__price {
     font-size: .875rem;
+    font-weight: bold;
+}
+.listItem__amount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
