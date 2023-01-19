@@ -14,7 +14,6 @@ const ShoppingCartList = (props) => {
         cartCtx.removeItem(id);
     }
     const addToAmount = (item) => {
-        console.log('addToAmount');
         cartCtx.addItem( {
             ...item,
             amount: 1
